@@ -60,7 +60,7 @@ if __name__ == '__main__':
                     )
 
     model = MusiLingo(llama_model=f'{path}/model/7B_vicuna',
-                prompt_template='###Human: {} ###Assistant: ')
+                prompt_template='USER: {} ASSISTANT: ')
 
     if config.qa_type == "short":
         ckpt_path = f"{path}/model/ckpt/short/checkpoint_11.pth"

@@ -4,7 +4,7 @@ model:
   mert_model: 'm-a-p/MERT-v1-330M'
   llama_model: '/path/to/7B_vicuna'
   ckpt: 'path/to/checkpoint'
-  prompt_template: '###Human: {} ###Assistant: '
+  prompt_template: 'USER: {} ASSISTANT: '
   end_sym: "###"
   max_txt_len: 160
 
